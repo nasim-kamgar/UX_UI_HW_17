@@ -1,1 +1,79 @@
-test
+.inline-flex li{
+    display: inline-flex;
+    vertical-align: top;   
+}
+header {
+    margin:80px;
+}
+
+header .navigation {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 1%;
+}
+ul {
+    float: left;
+    width: 50%;
+   
+    list-style-type: none; 
+}
+a {
+    text-decoration: none;
+    color: #173136;
+   
+ }
+
+ li {
+     font-size: x-large;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-right:50px;
+ }
+ .logo img {
+     text-align: center;
+
+   
+ }
+    
+.contact {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    margin-right: 30px;
+    float: right;    
+}
+.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+ 
+  .card {
+    padding: 2px 50px;
+    background-color: #DFF1F6;
+    height: 150px;
+    width: 600px;
+    float: right;
+    margin: 50px;
+    margin-right: 100px; 
+    box-shadow: 1 0px 16px; 
+  }
+  .card p {
+      font-size: x-large;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+
+footer ul {
+    
+    vertical-align: top;
+    font-size: x-large;
+    
+}
